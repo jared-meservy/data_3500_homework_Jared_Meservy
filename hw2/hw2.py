@@ -5,12 +5,12 @@ if grade >= 90:
 #2.4
 a =27.5
 b =2
-print("27.5 + 2 = "+ a + b)
-print("27.5 - 2 = "+ a - b)
-print("27.5 * 2 = "+ a * b)
-print("27.5 / 2 = "+ a / b)
-print("27.5 // 2 = "+ a // b)
-print("27.5 ** 2 = "+ a ** b)
+print("27.5 + 2 = "+ str(a + b))
+print("27.5 - 2 = "+ str(a - b))
+print("27.5 * 2 = "+ str(a * b))
+print("27.5 / 2 = "+ str(a / b))
+print("27.5 // 2 = "+ str(a // b))
+print("27.5 ** 2 = "+ str(a ** b))
 # 2.5
 raduis = 2
 print("The diameter of the circle is "+str(raduis*2))
