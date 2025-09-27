@@ -26,14 +26,21 @@ else:
     print("It is not a palindrome")
 
 #3.14
+#first time rounding to 3.14 152, 2nd 295. 3.141 295 
+
 blank=False
 pi=0
+times=0
 for x in range(1,1500,2):
-    print
+    if pi==3.141:
+        break
     if blank:
         pi -= 4 / x
         blank=False
+        times+=1
     else:
         pi+=4/x
         blank =True
+        times +=1
 print(pi)
+print(times)
