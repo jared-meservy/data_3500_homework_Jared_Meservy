@@ -1,0 +1,105 @@
+{
+    "coins": {
+        "bitcoin": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -106.27610256924673,
+                "amount": 0.009877970349517597
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": 156.70574224410873,
+                "last_signal": "SELL",
+                "trades": 6
+            }
+        },
+        "ethereum": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -220.5125558387367,
+                "amount": 0.24901750013139187
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": 411.6048226332945,
+                "last_signal": "SELL",
+                "trades": 4
+            }
+        },
+        "litecoin": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -383.57238511889057,
+                "amount": 7.3721416019969235
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": 177.9165536195768,
+                "last_signal": "SELL",
+                "trades": 4
+            }
+        },
+        "ripple": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -203.91509368304614,
+                "amount": 381.95022898736954
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": 107.57675773720884,
+                "last_signal": "SELL",
+                "trades": 4
+            }
+        },
+        "bitcoin-cash": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -73.95782317724384,
+                "amount": 1.6005416809718724
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": 576.8837755649407,
+                "last_signal": "BUY",
+                "trades": 5
+            }
+        },
+        "eos": {
+            "num_points": 366,
+            "start": "2024-12-09",
+            "end": "2025-12-08",
+            "buy_and_hold": {
+                "name": "buy_and_hold",
+                "profit": -864.3879127756694,
+                "amount": 754.7638072553917
+            },
+            "sma_crossover": {
+                "name": "sma_crossover",
+                "profit": -369.7092259212943,
+                "last_signal": "SELL",
+                "trades": 4
+            }
+        }
+    },
+    "best": {
+        "coin": "bitcoin-cash",
+        "strategy": "sma_crossover",
+        "profit": 576.8837755649407
+    }
+}
